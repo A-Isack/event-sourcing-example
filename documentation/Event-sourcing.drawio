@@ -1,19 +1,19 @@
-<mxfile host="Electron" modified="2024-02-27T09:33:43.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ut0ydjoEBJZ2X8UMwEjX" version="23.1.5" type="device">
+<mxfile host="Electron" modified="2024-02-27T13:52:06.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="06d_v7yFxyN_g5Sl5w8h" version="23.1.5" type="device">
   <diagram name="Page-1" id="pn3XQ3W3_GD8Yvmq3duF">
     <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UfCMHAolRIU-NOTpFQiW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfCMHAolRIU-NOTpFQiW-1" target="UfCMHAolRIU-NOTpFQiW-6">
+        <mxCell id="UfCMHAolRIU-NOTpFQiW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UfCMHAolRIU-NOTpFQiW-1" target="UfCMHAolRIU-NOTpFQiW-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UfCMHAolRIU-NOTpFQiW-1" value="&lt;b&gt;Order Entity&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;br&gt;(responsible for creating orders using &lt;br&gt;events description from order.events)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="170" width="220" height="90" as="geometry" />
+        <mxCell id="UfCMHAolRIU-NOTpFQiW-1" value="&lt;b&gt;Order Entity&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;br&gt;(responsible for creating orders using &lt;br&gt;events description from order.events)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="170" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="UfCMHAolRIU-NOTpFQiW-3" value="&lt;b&gt;Order.events (event factory)&lt;/b&gt;&lt;br&gt;&lt;br&gt;Used to create event classes with the event state and takes the event ID&amp;nbsp;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="220" height="90" as="geometry" />
+        <mxCell id="UfCMHAolRIU-NOTpFQiW-3" value="&lt;b&gt;Order.events (event factory)&lt;/b&gt;&lt;br&gt;&lt;br&gt;Used to create event classes with the event state and takes the event ID&amp;nbsp;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="UfCMHAolRIU-NOTpFQiW-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfCMHAolRIU-NOTpFQiW-3" target="UfCMHAolRIU-NOTpFQiW-1">
+        <mxCell id="UfCMHAolRIU-NOTpFQiW-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UfCMHAolRIU-NOTpFQiW-3" target="UfCMHAolRIU-NOTpFQiW-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="290" as="sourcePoint" />
             <mxPoint x="410" y="240" as="targetPoint" />
@@ -22,14 +22,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UfCMHAolRIU-NOTpFQiW-6" value="&lt;b&gt;Evenet store&lt;/b&gt;&lt;br&gt;Should use a database to store the events" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="170" width="220" height="90" as="geometry" />
+        <mxCell id="UfCMHAolRIU-NOTpFQiW-6" value="&lt;b&gt;Evenet store&lt;/b&gt;&lt;br&gt;Should use a database to store&lt;br&gt;&amp;nbsp;the events" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="170" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="UfCMHAolRIU-NOTpFQiW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfCMHAolRIU-NOTpFQiW-7" target="UfCMHAolRIU-NOTpFQiW-6">
+        <mxCell id="UfCMHAolRIU-NOTpFQiW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="UfCMHAolRIU-NOTpFQiW-7" target="UfCMHAolRIU-NOTpFQiW-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UfCMHAolRIU-NOTpFQiW-7" value="&lt;b&gt;Event.util&lt;/b&gt;&lt;br&gt;used to replay events&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="360" width="220" height="80" as="geometry" />
+        <mxCell id="UfCMHAolRIU-NOTpFQiW-7" value="&lt;b&gt;Event.util&lt;/b&gt;&lt;br&gt;used to replay events&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="397.5" y="350" width="315" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L4UmA8Hw08DV4MJ-iSyC-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="182.5" width="50" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="m8x-ammEFWfTBUPktoEo-1" value="Entity" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8x-ammEFWfTBUPktoEo-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.event;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8x-ammEFWfTBUPktoEo-3" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.play_gear" vertex="1" parent="1">
+          <mxGeometry x="650" y="365" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
